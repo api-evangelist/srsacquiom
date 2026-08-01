@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://www.srsacquiom.com/security/
+url: https://trust.srsacquiom.com/
+security_page: https://www.srsacquiom.com/security/
+certifications:
+- SOC 2
+- SOC 3
+notes: >-
+  Annual SOC 2 / SOC 3 audits performed by an independent audit firm against
+  AICPA requirements, with multiple years of attestation. Audit reports are
+  available for download from the SRS Acquiom Trust Center. Affiliate
+  broker-dealer Acquiom Financial LLC is FINRA/SIPC regulated.
+evidence:
+- source: https://www.srsacquiom.com/security/
+  keywords:
+  - soc 2
+  - soc 3
+  - aicpa
+  - trust center
+- source: https://trust.srsacquiom.com/
+  kind: trust-center

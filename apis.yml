@@ -1,8 +1,28 @@
 aid: srsacquiom
-name: Srsacquiom
-description: 'Srsacquiom is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/srsacquiom.png
+name: SRS Acquiom
+description: >-
+  SRS Acquiom provides deal management solutions for mergers & acquisitions and
+  loan agency transactions, operating across the entire deal lifecycle. Its
+  services span pre-closing tax and accounting advisory, closing-phase escrow,
+  payment disbursement and shareholder solicitation, and post-closing
+  shareholder representation, alongside loan agency roles (administrative,
+  collateral, and facility agent). SRS Acquiom delivers these through digital
+  dashboards and platforms for deal transparency, backed by affiliate
+  broker-dealer Acquiom Financial LLC (FINRA/SIPC). The company was surfaced as
+  a portfolio company of Norwest Venture Partners. No public developer API,
+  SDK, or developer portal is currently exposed.
 url: https://raw.githubusercontent.com/api-evangelist/srsacquiom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Mergers and Acquisitions
+- Financial Services
+- Escrow
+- Payments
+- Loan Agency
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://srsacquiom.com
+  url: https://www.srsacquiom.com
+- type: Support
+  url: https://www.srsacquiom.com/support-faq/
+- type: Blog
+  url: https://www.srsacquiom.com/our-insights/
+- type: TermsOfService
+  url: https://www.srsacquiom.com/terms-conditions/
+- type: PrivacyPolicy
+  url: https://www.srsacquiom.com/privacy/
+- type: TrustCenter
+  url: security/srsacquiom-trust-center.yml
+- type: Compliance
+  url: https://www.srsacquiom.com/security/
+- type: DomainSecurity
+  url: security/srsacquiom-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
