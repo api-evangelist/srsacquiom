@@ -47,7 +47,7 @@ modified: '2026-07-21'
 tags:
 - Company
 - Mergers and Acquisitions
-- Financial-Services
+- Financial Services
 - Escrow
 - Payments
 - Loan Agency
@@ -60,6 +60,7 @@ tags_raw:
 - Payments
 - Loan Agency
 - Fintech
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
